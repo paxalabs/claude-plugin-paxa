@@ -1,0 +1,15 @@
+{
+  "name": "paxalabs",
+  "description": "Paxa Labs plugins: Thai, English, and Mandarin Chinese speech, transcription, OCR, and translation.",
+  "owner": {
+    "name": "Paxa Labs",
+    "email": "hello@paxalabs.com",
+    "url": "https://paxalabs.com"
+  },
+  "plugins": [
+    {
+      "name": "paxa",
+      "source": "./"
+    }
+  ]
+}
