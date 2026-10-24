@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "paxa": {
+      "command": "npx",
+      "args": ["-y", "@paxalabs/mcp@0.1.0-beta.16"],
+      "env": {
+        "PAXA_API_KEY": "${user_config.api_key}"
+      }
+    }
+  }
+}

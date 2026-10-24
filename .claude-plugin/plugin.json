@@ -1,0 +1,39 @@
+{
+  "name": "paxa",
+  "displayName": "Paxa Labs",
+  "version": "0.1.0",
+  "description": "Thai, English, and Mandarin Chinese speech AI: speak out loud, save speech and captions to audio files, design voices, transcribe recordings and videos, translate into Thai, and read PDFs and images. Runs the official Paxa Labs MCP server.",
+  "author": {
+    "name": "Paxa Labs",
+    "email": "hello@paxalabs.com",
+    "url": "https://paxalabs.com"
+  },
+  "homepage": "https://paxalabs.com/docs/mcp",
+  "repository": "https://github.com/paxalabs/claude-plugin-paxa",
+  "license": "MIT",
+  "keywords": [
+    "text-to-speech",
+    "speech-to-text",
+    "transcription",
+    "voice",
+    "ocr",
+    "translation",
+    "thai",
+    "mandarin",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://paxalabs.com/docs/mcp",
+  "supportUrl": "https://github.com/paxalabs/claude-plugin-paxa/issues",
+  "privacyPolicyUrl": "https://paxalabs.com/privacy",
+  "termsOfServiceUrl": "https://paxalabs.com/terms",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Paxa API key",
+      "description": "Create one at https://paxalabs.com/app/keys (it starts with pxa_). New accounts include free credits.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
