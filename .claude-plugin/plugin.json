@@ -2,7 +2,7 @@
   "name": "paxa",
   "displayName": "Paxa Labs",
   "version": "0.1.0",
-  "description": "Thai, English, and Mandarin Chinese speech AI: speak out loud, save speech and captions to audio files, design voices, transcribe recordings and videos, translate into Thai, and read PDFs and images. Runs the official Paxa Labs MCP server.",
+  "description": "Thai, English, and Mandarin Chinese speech AI: speak out loud, save speech and captions to audio files, design voices, transcribe recordings and videos, translate into Thai, and read PDFs and images. Runs the official Paxa Labs MCP server and adds a skill for building on the Paxa API.",
   "author": {
     "name": "Paxa Labs",
     "email": "hello@paxalabs.com",
